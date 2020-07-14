@@ -40,10 +40,17 @@ namespace ASCIIConversion
                 //else
                 //    txtResult.Text = "Nhập sai giá trị.";
             }
+
+            //Xử Lý Ngoại Lệ Không Nhập Giá Trị Cho txtA/txtC:
             catch (FormatException)
             {
                 txtResult.Text = "Chưa nhập giá trị.";
             }
+
+            //Xử Lý Ngoại Lệ Nhập Sai Giá Trị ở txtA/txtC:
+            //...
+            //...
+
         }
     }
 }

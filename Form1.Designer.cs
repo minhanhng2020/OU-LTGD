@@ -41,7 +41,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.txtC = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnAct2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -57,7 +57,7 @@
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(71, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(324, 40);
+            this.label1.Size = new System.Drawing.Size(323, 40);
             this.label1.TabIndex = 1;
             this.label1.Text = "CHUYỂN MÃ ASCII";
             // 
@@ -122,7 +122,7 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(17, 29);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(65, 16);
+            this.label2.Size = new System.Drawing.Size(64, 16);
             this.label2.TabIndex = 1;
             this.label2.Text = "Mã ASCII";
             // 
@@ -146,7 +146,7 @@
             this.groupBox2.Controls.Add(this.label4);
             this.groupBox2.Controls.Add(this.txtC);
             this.groupBox2.Controls.Add(this.label5);
-            this.groupBox2.Controls.Add(this.button1);
+            this.groupBox2.Controls.Add(this.btnAct2);
             this.groupBox2.Font = new System.Drawing.Font("Arial", 8F);
             this.groupBox2.Location = new System.Drawing.Point(3, 15);
             this.groupBox2.Name = "groupBox2";
@@ -188,18 +188,18 @@
             this.label5.TabIndex = 4;
             this.label5.Text = "Ký tự:";
             // 
-            // button1
+            // btnAct2
             // 
-            this.button1.BackColor = System.Drawing.Color.Silver;
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(101, 66);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(100, 23);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "Chuyển";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnAct2.BackColor = System.Drawing.Color.Silver;
+            this.btnAct2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAct2.FlatAppearance.BorderSize = 0;
+            this.btnAct2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAct2.Location = new System.Drawing.Point(101, 66);
+            this.btnAct2.Name = "btnAct2";
+            this.btnAct2.Size = new System.Drawing.Size(100, 23);
+            this.btnAct2.TabIndex = 3;
+            this.btnAct2.Text = "Chuyển";
+            this.btnAct2.UseVisualStyleBackColor = false;
             // 
             // Form1
             // 
@@ -243,7 +243,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txtC;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnAct2;
     }
 }
 
