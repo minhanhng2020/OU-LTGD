@@ -132,6 +132,8 @@
             this.btnAct.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnAct.FlatAppearance.BorderSize = 0;
             this.btnAct.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAct.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Bold);
+            this.btnAct.ForeColor = System.Drawing.Color.Navy;
             this.btnAct.Location = new System.Drawing.Point(97, 66);
             this.btnAct.Name = "btnAct";
             this.btnAct.Size = new System.Drawing.Size(100, 23);
@@ -194,12 +196,15 @@
             this.btnAct2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnAct2.FlatAppearance.BorderSize = 0;
             this.btnAct2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAct2.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Bold);
+            this.btnAct2.ForeColor = System.Drawing.Color.Navy;
             this.btnAct2.Location = new System.Drawing.Point(101, 66);
             this.btnAct2.Name = "btnAct2";
             this.btnAct2.Size = new System.Drawing.Size(100, 23);
             this.btnAct2.TabIndex = 3;
             this.btnAct2.Text = "Chuyển";
             this.btnAct2.UseVisualStyleBackColor = false;
+            this.btnAct2.Click += new System.EventHandler(this.btnAct2_Click);
             // 
             // Form1
             // 
@@ -211,6 +216,7 @@
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold);
             this.Margin = new System.Windows.Forms.Padding(4);
+            this.MaximizeBox = false;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Chuyển Mã ASCII";

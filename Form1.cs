@@ -14,18 +14,6 @@ namespace ASCIIConversion
         public Form1()
         {
             InitializeComponent();
-            //}
-
-            //private void label1_Click(object sender, EventArgs e)
-            //{
-
-            //}
-            //}
-
-            //    private void button1_Click(object sender, EventArgs e)
-            //    {
-
-            //    }
         }
 
         private void btnAct_Click(object sender, EventArgs e)
@@ -44,13 +32,33 @@ namespace ASCIIConversion
             //Xử Lý Ngoại Lệ Không Nhập Giá Trị Cho txtA/txtC:
             catch (FormatException)
             {
-                txtResult.Text = "Chưa nhập giá trị.";
+                MessageBox.Show("Giá trị nhập vào chưa đúng. Vui lòng kiểm tra lại.");
             }
 
             //Xử Lý Ngoại Lệ Nhập Sai Giá Trị ở txtA/txtC:
             //...
             //...
 
+        }
+
+        private void btnAct2_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                int r = int.Parse(txtA.Text);
+                //if (r)
+                //{
+
+                //}
+                //else
+                //    txtResult.Text = "Nhập sai giá trị.";
+            }
+
+            //Xử Lý Ngoại Lệ Không Nhập Giá Trị Cho txtA/txtC:
+            catch (FormatException)
+            {
+                MessageBox.Show("Giá trị nhập vào chưa đúng. Vui lòng kiểm tra lại.");
+            }
         }
     }
 }
